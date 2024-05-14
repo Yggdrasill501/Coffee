@@ -39,6 +39,3 @@ set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS "--shell-file ${CMAK
 
 target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Gui Qt6::Widgets)
 target_include_directories(${PROJECT_NAME} PRIVATE include)
-
-
-
